@@ -37,6 +37,7 @@ body {
 }
 
 
+
 .them-para {
     font-size: 14px;
     line-height: 22px;
@@ -99,4 +100,18 @@ body {
     transform: rotate(-180deg);
 }
 
+footer p{
+    font-size: 16px;
+}
 
+@media (max-width: 1199px) {
+    .logo img {
+        max-width: 280px;
+    }
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        max-width: 178px;
+    }
+}
